@@ -266,9 +266,9 @@ Features are completed incrementally rather than added in unfinished states.
 
 ## Current Status
 
-**Early Development**
+**Early Development — Phase 1 In Progress**
 
-The architecture and core systems are actively being designed and implemented.
+The architecture and core systems are actively being designed and implemented. Phase progress, completion criteria, and immediate next steps are tracked in [`Documentation/DevelopmentRoadmap.md`](Documentation/DevelopmentRoadmap.md).
 
 The project is not yet production-ready.
 
