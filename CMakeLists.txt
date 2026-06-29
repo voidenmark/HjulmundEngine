@@ -6,8 +6,13 @@ option(HJULMUND_BUILD_TESTS "Build Hjulmund Engine tests" ON)
 
 add_library(HjulmundEngine
     Engine/Source/Hjulmund/Core/Assert.cpp
+    Engine/Source/Hjulmund/Core/Event.cpp
     Engine/Source/Hjulmund/Core/Logger.cpp
     Engine/Source/Hjulmund/Core/Time.cpp
+    Engine/Source/Hjulmund/Platform/Input.cpp
+    Engine/Source/Hjulmund/Platform/Window.cpp
+    Engine/Source/Hjulmund/Runtime/Application.cpp
+    Engine/Source/Hjulmund/Scene/Camera.cpp
 )
 
 add_library(Hjulmund::Engine ALIAS HjulmundEngine)
